@@ -1,5 +1,19 @@
 import hashlib, bcrypt
 #Demonstrates the difference between two types of hashing, SHA1 and Bcrypt
+
+print()
+print("▄▄▄█████▓ ▄▄▄       ▄████▄  ▄▄▄█████▓ ██▓ ▄████▄   ▄▄▄       ██▓ ")   
+print("▓  ██▒ ▓▒▒████▄    ▒██▀ ▀█  ▓  ██▒ ▓▒▓██▒▒██▀ ▀█  ▒████▄    ▓██▒ ")   
+print("▒ ▓██░ ▒░▒██  ▀█▄  ▒▓█    ▄ ▒ ▓██░ ▒░▒██▒▒▓█    ▄ ▒██  ▀█▄  ▒██░ ")   
+print("░ ▓██▓ ░ ░██▄▄▄▄██ ▒▓▓▄ ▄██▒░ ▓██▓ ░ ░██░▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██░   ") 
+print("  ▒██▒ ░  ▓█   ▓██▒▒ ▓███▀ ░  ▒██▒ ░ ░██░▒ ▓███▀ ░ ▓█   ▓██▒░██████▒ ")
+print("  ▒ ░░    ▒▒   ▓▒█░░ ░▒ ▒  ░  ▒ ░░   ░▓  ░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░▓  ░ ")
+print("    ░      ▒   ▒▒ ░  ░  ▒       ░     ▒ ░  ░  ▒     ▒   ▒▒ ░░ ░ ▒  ░ ")
+print("  ░        ░   ▒   ░          ░       ▒ ░░          ░   ▒     ░ ░    ")
+print("               ░  ░░ ░                ░  ░ ░            ░  ░    ░  ░ ")
+print("                   ░                     ░                           ")
+print()
+
 password = input("Input the password to hash\n>")
 print("\nSHA1:\n")
 for i in range(3):
